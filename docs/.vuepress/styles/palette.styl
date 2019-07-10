@@ -1,0 +1,111 @@
+table {
+    font-weight: 400;
+}
+
+table tr {
+    border-top: 0;
+    border-bottom: 1px solid #dfe2e5;
+}
+
+table th {
+    color: #909399;
+    text-align: left;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+table th, table td {
+    border: 0;
+    padding: 15px;
+}
+
+table tr th:nth-child(2) {
+    min-width: 220px;
+}
+
+table td {
+   color: #606266; 
+   font-size: 14px;
+}
+
+table tr:nth-child(2n) {
+    background-color: transparent; 
+}
+
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) {
+    opacity: 1;
+}
+
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable):hover {
+    cursor: pointer;
+    color: #E89A32;
+}
+
+.sidebar-group.is-sub-group > .sidebar-heading:not(.clickable) .arrow {
+    opacity: 0;
+}
+
+blockquote {
+    color: #E89A32;
+    border-left: 0.2rem solid #E89A32;
+}
+
+// 选中的颜色
+$accentColor = #e89a32
+
+// 文本颜色
+$textColor = #2c3e50
+
+// 边框颜色
+$borderColor = #eaecef
+
+// 代码背景色
+$codeBgColor = #282c34
+
+.home .hero .action-button {
+    background-color: #e89a32;
+    border-bottom: 1px solid #e89a32;
+}
+.home .hero .action-button:hover {
+    background-color: rgba(232, 154, 50, 0.9);
+    border-bottom: 1px solid rgba(232, 154, 50, 0.9);
+}
+
+a:hover {
+    color: #e89a32; 
+}
+
+.nav-links a:hover, .nav-links a.router-link-active {
+    color: #e89a32; 
+}
+
+@media(min-width: 719px) {
+    .nav-item > a:not(.external):hover, .nav-item > a:not(.external).router-link-active {
+        border-bottom: 2px solid #e89a32; 
+    }
+}
+
+.custom-block.tip {
+    border-color: #e89a32;
+}
+
+// 标题样式
+
+
+h1 a:before, h2 a:before, h3 a:before, h4 a:before, h5 a:before, h6 a:before {
+    display: inline-block;
+    color: rgba(232, 154, 50, 0.9);
+    content: "¶";
+    position: relative;
+    right: -10px;
+}
+
+h2 span {
+    font-size: 14px;
+    color: #475669;
+    font-weight: bold;
+}
+
+h1:hover .header-anchor, h2:hover .header-anchor, h3:hover .header-anchor, h4:hover .header-anchor, h5:hover .header-anchor, h6:hover .header-anchor {
+    color: #fff;
+}
